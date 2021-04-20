@@ -1,0 +1,11 @@
+.login-form{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    text-align: center;
+    border: 2px solid wheat;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+
+}

@@ -1,0 +1,20 @@
+.card{
+    width:300px;
+    text-align: center;
+    height: 300px;
+    border-radius: 0.5em;
+}
+.card h4{
+    /* background-color: #634e45; */
+    color: #634e45;
+    padding: 20px;
+    border-bottom: 1px solid #634e45;
+}
+.card p{
+    color:#634e45;
+}
+.btn-price{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,22 @@
+.service img:hover{
+    transform: rotateY(150deg);
+    transition: transform 3s;
+}
+.service img{
+    height:100px; 
+    padding:20px;
+    background-color:#f0edde; 
+    border-radius:25px;
+    cursor: pointer;  
+}
+.service{
+    border: 2px solid whitesmoke;
+    border-radius: 1em;
+    padding: 20px;
+    height: 330px;
+    
+}
+.btn-king{
+    background-color: whitesmoke;
+    color:#b18857;
+}

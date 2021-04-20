@@ -1,0 +1,11 @@
+.add-form{
+    margin-top: 30px;
+    margin-bottom: auto;
+    
+    text-align: center;
+    border: 2px solid wheat;
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    background-color: #9b7a67;
+}

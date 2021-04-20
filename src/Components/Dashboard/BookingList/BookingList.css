@@ -1,0 +1,19 @@
+.bookings{
+    border: 3px solid whitesmoke;
+    border-radius: 1em;
+    padding: 20px;
+    height: 250px;
+    
+}
+.bookings img{
+    height:100px; 
+    padding:20px;
+    background-color:#f0edde; 
+    border-radius:25px;
+    cursor: pointer;  
+}
+.status p{
+    border:4px solid whitesmoke;
+    height:50px;
+    padding:10px;
+}

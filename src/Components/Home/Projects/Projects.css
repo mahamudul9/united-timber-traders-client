@@ -1,0 +1,15 @@
+.project img{
+    height: 200px;
+    border-radius: 0.3em;
+}
+.project{
+    padding-top: 50px;
+    text-align: center;
+}
+.project h4{
+    padding-top: 20px;
+    color: #b18857;
+}
+.project p, .project h6{
+    color: #b18857;
+}

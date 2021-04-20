@@ -1,0 +1,14 @@
+.carousel-item img{
+    height: 450px;
+    opacity:80%;
+}
+.carousel-caption{
+    margin-bottom: 100px;
+}
+.carousel-caption h6{
+    font-size:100px;
+}
+.btn-prime{
+    background-color:#634e45;
+    color: white;
+}
