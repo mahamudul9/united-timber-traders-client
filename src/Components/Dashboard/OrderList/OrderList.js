@@ -5,17 +5,12 @@ import Sidebar from '../Sidebar/Sidebar';
 const OrderList = () => {
     const [booking, setBooking] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/booking')
+        fetch('https://guarded-spire-38401.herokuapp.com/booking')
             .then(res => res.json())
             .then(data => setBooking(data))
     })
 
-    // const handleStatus=(e)=>{
-    //     console.log(e.target.value)
-    // }
-    const handleUpdate=(e)=>{
-        console.log(e.target.value)
-    }
+    
     return (
         <div className='row'>
             <div className="col-md-2">
@@ -37,7 +32,7 @@ const OrderList = () => {
                             <td>{service.billing_details.email}</td>
                             <td>{service.order.title}</td>
                             <td>{service.card.brand + ' ' + service.type}</td>
-                            <td><select  onClick={handleUpdate} id="status">
+                            <td><select id="status">
                                 <option style={{color:'red'}} value="Pending">Pending</option>
                                 <option style={{color:'yellow'}}  value="On going">On going</option>
                                 <option style={{color:'green'}}  value="Done">Done</option>

@@ -76,7 +76,7 @@ const MakePayment = ({ billing_details, order }) => {
             console.log('[PaymentMethod]', paymentMethod);
         }
 
-        fetch('http://localhost:5000/addBooking', {
+        fetch('https://guarded-spire-38401.herokuapp.com/addBooking', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

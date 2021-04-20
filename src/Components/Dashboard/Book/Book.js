@@ -20,7 +20,7 @@ const Book = () => {
         image: newService?.image
     }
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://guarded-spire-38401.herokuapp.com/services')
         .then(response =>response.json())
         .then(data =>setServices(data))
     },[])

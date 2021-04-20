@@ -9,7 +9,7 @@ const Sidebar = () => {
     const[loggedInUser, setLoggedInUser]= useContext(UserContext);
     const [admin, setAdmin]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/admins')
+        fetch('https://guarded-spire-38401.herokuapp.com/admins')
         .then(res=>res.json())
         .then(data=>setAdmin(data))
     },[])

@@ -6,7 +6,7 @@ import './MakeAdmin.css'
 const MakeAdmin = () => {
     const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => {
-          fetch('http://localhost:5000/addAdmin',{
+          fetch('https://guarded-spire-38401.herokuapp.com/addAdmin',{
             method: 'POST', 
             headers: {
               'Content-Type': 'application/json',

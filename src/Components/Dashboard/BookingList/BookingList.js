@@ -9,7 +9,7 @@ const BookingList = () => {
     const[loggeInUser,setLoggedInUser]=useContext(UserContext);
     const [booking,setBooking]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/booking')
+        fetch('https://guarded-spire-38401.herokuapp.com/booking')
         .then(res=>res.json())
         .then(data=>setBooking(data))
     })
@@ -32,8 +32,7 @@ const BookingList = () => {
                             <h4 style={{ paddingTop: '10px', color: '#b18857' }}>{book.order.title}</h4>
                             <p style={{ color: '#b18857' }}>{book.order.description}</p>
                         </div>
-                    </div>
-                    
+                    </div>       
                 )}
                 </div>
             </div>
