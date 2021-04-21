@@ -17,14 +17,6 @@ const Header = () => {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <imgfixed-top src={image2} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption">
-          <p><strong>WOOD YOU NEED FOR</strong></p>
-        <h6><strong>BUILDING!</strong></h6>
-        <button class="btn btn-prime">BUY NOW</button>
-      </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
       <img src={image3} class="d-block w-100" alt="..."/>
       <div class="carousel-caption">
         <p><strong>QUALITY WOOD FROM</strong></p>

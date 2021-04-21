@@ -18,6 +18,10 @@ const OrderList = () => {
             </div>
             <div className="col-md-10">
             <div className='text-center manage-table'>
+                {booking.length===0 && 
+                <div class="spinner-grow text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>}
                 <table>
                     <tr style={{ backgroundColor: '#634e45' }}>
                         <th>Name</th>

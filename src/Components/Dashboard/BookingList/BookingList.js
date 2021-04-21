@@ -22,6 +22,10 @@ const BookingList = () => {
             </div>
             <div className="col-md-10">
                 <div className='row d-flex justify-content-around'>
+                    {newBooking.length===0 && 
+                    <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>}
             {newBooking.map(book =>
                     <div className='col-md-5 pt-5'>
                         <div className='bookings'>

@@ -28,9 +28,6 @@ const Navbar = () => {
                             <Link to='/pricing' style={{color:'white'}} class="nav-link">Pricing</Link>
                         </li>
                         <li class="nav-item">
-                            <Link to='/about' style={{color:'white'}} class="nav-link">About</Link>
-                        </li>
-                        <li class="nav-item">
                             <Link to='/testimonial' style={{color:'white'}} class="nav-link">Testimonial</Link>
                         </li>
                         <li class="nav-item">

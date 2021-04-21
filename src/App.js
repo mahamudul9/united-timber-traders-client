@@ -8,7 +8,6 @@ import {
 import Home from './Components/Home/Home/Home';
 import Services from './Components/Home/Services/Services';
 import Projects from './Components/Home/Projects/Projects';
-import About from './Components/Home/About/About';
 import Dashboard from './Components/Dashboard/Dashboard/Dashboard';
 import Login from './Components/Login/Login';
 import { createContext } from 'react';
@@ -44,9 +43,6 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects />
-          </Route>
-          <Route path="/about">
-            <About />
           </Route>
           <Route path="/testimonial">
             <Testimonial />
