@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUnlockAlt, faSignOutAlt, faList, faPlus, faTools, faCartPlus, faCommentDots } from '@fortawesome/free-solid-svg-icons';
+import { faUnlockAlt, faSignOutAlt, faList, faPlus, faTools, faCommentDots } from '@fortawesome/free-solid-svg-icons';
 import { UserContext } from '../../../App';
 
 const Sidebar = () => {

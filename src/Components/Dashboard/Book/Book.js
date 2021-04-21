@@ -5,7 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
 import { useForm } from 'react-hook-form';
 import './Book.css'
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 
 const stripePromise = loadStripe('pk_test_51IeKBlABh6f6yGUjzUXBd64pkVZkEwmaOpUtaJwZifbWj9pEL2XGBlJliAUxKBSphC1AY0iRTDVh2Q16bvuuZMq8008f5loySk');
 const Book = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import './Services.css'
 
 const Services = () => {

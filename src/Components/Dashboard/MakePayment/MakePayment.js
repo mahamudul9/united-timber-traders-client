@@ -7,7 +7,7 @@ import {
     CardExpiryElement
 } from "@stripe/react-stripe-js";
 import './MakePayment.css'
-import { useContext } from "react/cjs/react.development";
+import { useContext } from "react";
 import { UserContext } from "../../../App";
 
 

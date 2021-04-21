@@ -6,7 +6,7 @@ import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import { useForm } from "react-hook-form";
 import './Login.css'
-import { useHistory, useLocation } from 'react-router';
+import { useHistory, useLocation } from 'react-router-dom';
 import { UserContext } from '../../App';
 
 if (!firebase.apps.length) {
@@ -61,7 +61,6 @@ const Login = () => {
             history.replace(from);
         })
         .catch((error) => {
-            var errorCode = error.code;
             var errorMessage = error.message;
             console.log('error: ', errorMessage)
         });

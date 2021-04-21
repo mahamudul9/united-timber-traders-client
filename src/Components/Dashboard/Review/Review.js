@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import './Review.css'
 

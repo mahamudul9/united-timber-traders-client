@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Dashboard.css'
 import Sidebar from '../Sidebar/Sidebar'
-import { useContext } from 'react/cjs/react.development';
+import { useContext } from 'react';
 import { UserContext } from '../../../App';
 
 
