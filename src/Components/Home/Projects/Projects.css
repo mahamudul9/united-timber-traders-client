@@ -13,3 +13,8 @@
 .project p, .project h6{
     color: #b18857;
 }
+@media (max-width: 600px){
+    .project{
+        margin-left: 30px;
+    }
+}

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import './Services.css'
 import Zoom from 'react-reveal/Zoom';
+import Footer from '../Footer/Footer';
 
 const Services = () => {
     const [services, setServices] = useState([])
@@ -31,6 +32,7 @@ const Services = () => {
                     </div>
                 )}
             </div>
+            <Footer/>
         </div>
     );
 };

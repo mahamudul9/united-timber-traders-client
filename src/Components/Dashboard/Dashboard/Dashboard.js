@@ -16,7 +16,6 @@ const Dashboard = () => {
             <div className="col-md-10 text-center">
                 <h2 style={{color:'#634e45',paddingTop:'50px'}}>Welcome {loggedInUser.displayName} to your Dashboard</h2>
                 <h4 style={{color:'#634e45'}}>Choose your options from the sidebar</h4>
-
             </div>
         </div>
     );

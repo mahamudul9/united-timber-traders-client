@@ -1,6 +1,7 @@
 import React from 'react';
 import './Pricing.css'
 import Zoom from 'react-reveal/Zoom';
+import Footer from '../Footer/Footer';
 
 const Pricing = () => {
     return (
@@ -34,6 +35,7 @@ const Pricing = () => {
                 </div>
                 </Zoom>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
