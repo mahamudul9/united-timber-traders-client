@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './Testimonial.css'
-import Footer from '../Footer/Footer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
@@ -40,7 +39,6 @@ const Testimonial = () => {
                     )}
                 </Swiper>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

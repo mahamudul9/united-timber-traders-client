@@ -4,7 +4,6 @@ import image2 from '../../../images/image/wood-stair-treads.webp'
 import image3 from '../../../images/image/bar-done-with-pallets.jpg'
 import './Projects.css'
 import Zoom from 'react-reveal/Zoom';
-import Footer from '../Footer/Footer';
 
 const Projects = () => {
     return (
@@ -32,8 +31,7 @@ const Projects = () => {
                     <p>We supply wood for making beautiful furnitures and decoration.</p>
                 </div>
             </Zoom>
-            </div>      
-            <Footer/>     
+            </div>        
         </div>
     );
 };

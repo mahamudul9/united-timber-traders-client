@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import './Services.css'
 import Zoom from 'react-reveal/Zoom';
-import Footer from '../Footer/Footer';
 
 const Services = () => {
     const [services, setServices] = useState([])
@@ -13,7 +12,6 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
-    console.log(services);
     return (
         <div style={{ backgroundColor: '#b18857' }} className='d-flex justify-content-around'>
             <div style={{ textAlign: 'center' }} className='row pb-2 m-5'>
@@ -32,7 +30,6 @@ const Services = () => {
                     </div>
                 )}
             </div>
-            <Footer/>
         </div>
     );
 };

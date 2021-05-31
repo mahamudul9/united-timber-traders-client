@@ -35,7 +35,6 @@ const Pricing = () => {
                 </div>
                 </Zoom>
             </div>
-            <Footer></Footer>
         </div>
     );
 };
