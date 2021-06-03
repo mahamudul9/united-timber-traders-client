@@ -7,7 +7,7 @@ import { UserContext } from '../../App';
 const Navbar = () => {
     const [loggedInuser, setLoggedInuser]= useContext(UserContext)
     return (
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <Link to='/' class="navbar-brand" href="/"><img style={{height:'60px'}} src={logo} alt=""/></Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

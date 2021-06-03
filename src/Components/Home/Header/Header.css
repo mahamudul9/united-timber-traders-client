@@ -11,3 +11,8 @@
     background-color:#634e45;
     color: white;
 }
+@media (max-width: 600px) {
+    .carousel-caption h6{
+        font-size:60px;
+    }
+}

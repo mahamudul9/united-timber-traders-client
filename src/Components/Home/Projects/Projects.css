@@ -15,6 +15,6 @@
 }
 @media (max-width: 600px){
     .project{
-        margin-left: 30px;
+        padding-right: 35px;
     }
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import image1 from '../../../images/image/joel-jasmin-forestbird-xzPMUMDDsfk-unsplash.jpg'
-import image3 from '../../../images/image/hanna-balan-YeDTjpn945g-unsplash.jpg'
 import './Header.css'
 
 const Header = () => {

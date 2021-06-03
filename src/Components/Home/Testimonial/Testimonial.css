@@ -2,5 +2,10 @@
     left: 0;
 }
 .test{
-    /* width: 300px; */
+    padding-left: 150px;
+}
+@media (max-width:600px) {
+    .test{
+        padding-right: 150px;
+    }
 }
