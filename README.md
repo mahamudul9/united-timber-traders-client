@@ -4,8 +4,11 @@ This project is a ecommerce project. One can login , place order and show his st
 
 #Features
 ● Full-stack web application with dynamic service and testimonial section.
+
 ● Any user sign in with google, book for a service, make payment & can give review.
+
 ● Clients can check their order list and also their current status from their dashboard.
+
 ● Authenticate admin panel available & admin can see all orders and add any service in
  admin dashboard.
  
